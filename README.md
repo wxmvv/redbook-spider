@@ -1,24 +1,26 @@
-# Python-Spi
+# redbook-spider
 
- My Python scraper 🥷
+ simple scraper for redbook 🍠
 
-## List of web scrapers
+ use selenium to login and get data automatically.
 
-- Scraper for redbook 🍠
-- ...
+## features
+
+- [x] get all post url use profile url
+- [x] get explore post info
 
 ## Usage
 
 1. Run the chrome for redbook, and login with your account.
 
 ```bash
-sh start_chrome.sh
+sh redbook/start_chrome.sh
 ```
 
 2. Run the scraper for redbook.
 
 ```bash
-python redbook.py
+python redbook/redbook.py
 ```
 
 ## License
