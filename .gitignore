@@ -3,3 +3,4 @@ chrome_dev
 *.csv
 test
 utils
+cookies*
